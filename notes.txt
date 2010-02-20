@@ -1,0 +1,49 @@
+(1 min)
+- Introduction
+  - Me
+  - Python Projects using Hg/Git, why you should care
+
+(2 min)
+- The Birth of Hg and Git
+  - April/May 2005 - death of BK, birth of Hg/Git
+  - Early design decisions, why they did not merge
+
+(7 min)
+- The Similarities
+  - Distributed Repositories
+  - Directed Graph History
+  - SHA1 Content Checksumming
+  - Speed
+
+(10 min)
+- The Differences
+  - Storage methodologies - revlog vs associative storage
+  - Delta formats - revlog vs packfile
+  - File Renames (explicit vs implicit)
+  - Branches (changeset recorded vs ref pointers, HEAD vs default branch)
+  - monotonically increasing version numbering
+  - Tags (objects/refs vs file)
+  - Data normalization (git is highly normalized, hg has more redundant data)
+  - Patch management (mq vs branches)
+
+(3 min)
+- Hg Plugins
+  - Git -> Hg:
+    - bookmarks (git refs)
+    - fetch (git pull, ugh)
+    - rebase
+    - pager
+    - hgweb (gitweb)
+  - Hg -> Git:
+    - graphlog (--graph)
+
+(5 min)
+- Hg-Git, a case study
+  - General usage (implementing a new protocol in hg plugins)
+  - What does not convert bidirectionally (artifact of hg data redundancy)
+    - explicit rename issues
+    - plugins problems : changelists vs manifest compares
+
+(2 min)
+- The Future / Conclusion
+  - Git/Hg server?
