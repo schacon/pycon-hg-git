@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 
 # why you should care #
 
