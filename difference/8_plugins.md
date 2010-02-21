@@ -7,7 +7,7 @@
 # hello.py #
 
 	@@@ python
-	def hello(ui, repo, file_=None, **opts):
+	def hello(ui, repo, **opts):
 	    print "hello world"
 
 	cmdtable = {
