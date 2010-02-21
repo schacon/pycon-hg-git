@@ -35,8 +35,8 @@
 
 # Resources #
 
+* pycon-hg-git.heroku.com
 * git-scm.com / mercurial.selenic.com
 * progit.org / hgbook.red-bean.com
 * \#git / \#github / \#mercurial on Freenode
-* schacon@gmail.com
-* @chacon
+* schacon@gmail.com / @chacon
