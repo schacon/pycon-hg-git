@@ -1,3 +1,3 @@
 bluecloth
 nokogiri
-showoff
+showoff --version 0.0.7
