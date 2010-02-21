@@ -1,45 +1,3 @@
-!SLIDE subsection
-
-# the differences #
-
-!SLIDE
-
-# storage methodologies #
-
-!SLIDE
-
-## revlog vs associative storage #
-
-!SLIDE
-
-# delta formats #
-
-!SLIDE
-
-## revlog vs packfile #
-
-!SLIDE
-
-# data normalization #
-
-!SLIDE
-
-# branches #
-
-!SLIDE
-
-## changeset recorded vs ref pointers ##
-
-
-!SLIDE
-
-# patch management #
-
-!SLIDE
-
-## mq vs branches ##
-
-
 !SLIDE
 
 # plugins #
@@ -111,8 +69,6 @@
 	$ hg summary -r 661ff8cfe198
 	second commit
 
-!SLIDE
-
 !SLIDE bullets incremental small
 
 # inspired by git #
@@ -123,20 +79,4 @@
 * pager
 * hgweb (git instaweb)
 * revspec
-
-!SLIDE
-
-# so... #
-
-
-!SLIDE bullets incremental smaller
-
-# Differences Overview #
-
-* Storage methodologies - revlog vs associative storage
-* Delta formats - revlog vs packfile
-* Data normalization
-* Branches (changeset recorded vs ref pointers)
-* Patch management (mq vs branches)
-* Plugins
 
